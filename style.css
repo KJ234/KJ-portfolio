@@ -1,0 +1,21 @@
+* {
+    
+    margin: 0%;
+}
+
+.container {
+    background-color: indigo;
+    color: white;
+    padding: 20px;
+}
+
+.container h1 {
+    font-size: xx-large;
+    
+}
+
+.container nav li {
+    display: inline;
+    float: right;
+    width: 100px;
+}
