@@ -38,3 +38,23 @@
     
 }
 
+.top-left {
+    color: white;
+    font-size: xx-large;
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    top: 300px;
+    left: 34px;
+}
+
+button {
+    color: black;
+    top: 350px;
+    left: 55px;
+    position: absolute;
+    
+}
+
+button:hover {
+    background-color: indigo;
+}
