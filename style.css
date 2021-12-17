@@ -181,9 +181,6 @@ img:hover {
     opacity: 0.3;
 }
 
-
-
-
 .form {
     height:500px;
    
@@ -216,5 +213,16 @@ img:hover {
     display: inline-block;
     display: flex;
     justify-content: space-evenly;
+    
+}
+
+@media screen and (max-width: 798px) {
+
+    main { 
+        background-color: indigo;
+        color: white;
+        
+    }
+    
     
 }
