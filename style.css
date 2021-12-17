@@ -1,6 +1,7 @@
 * {
     
     margin: 0%;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .container {
@@ -19,7 +20,7 @@
     display: inline;
     float: right;
     width: 100px;
-    
+    margin-top: -15px;
 }
 
 .container nav a {
@@ -41,7 +42,6 @@
 .top-left {
     color: white;
     font-size: xx-large;
-    font-family: Arial, Helvetica, sans-serif;
     position: absolute;
     top: 300px;
     left: 34px;
@@ -58,3 +58,26 @@ button {
 button:hover {
     background-color: indigo;
 }
+
+#myself {
+    float: right;
+    height: 180px;
+    
+}
+
+.bottom-row {
+    border: 10px dotted indigo;
+    width:50%;
+    height: 200px;
+}
+
+.bottom-row h2 {
+    font-size: larger;
+    left: 100px;
+    padding: 10px;
+}
+
+.bottom-row p {
+    color:blueviolet;
+}
+
