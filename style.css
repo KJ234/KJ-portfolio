@@ -160,7 +160,6 @@ button:hover {
     text-align: center;
 }
 
-
 #placeholder-image {
     border: indigo solid 2px;
     margin-right: 10px;
@@ -168,10 +167,13 @@ button:hover {
     
 }
 
-
 .one-row p {
     margin-left: 20px;
 
+}
+
+img:hover {
+    opacity: 0.3;
 }
 
 
