@@ -81,3 +81,51 @@ button:hover {
     color:blueviolet;
 }
 
+
+.right {
+   float: right;
+    background-color: indigo;
+    margin-top: -200px;
+    height: 800px;
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+    
+
+}
+
+.card {
+    border: 2px solid white;
+    margin: 50px;
+    box-shadow: 10px 10px 10px grey;
+    height: 223px;
+    border-radius: 10px;
+    transform: rotate(2deg); 
+}
+
+.image-header{
+    text-align: center;
+    background-color: lightblue;
+    width: 200px;
+    font-size: larger;
+    height: 20px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.side-styling {
+    width: 200px;
+    float: right;
+    height: 200px;
+    border-radius: 0px 0px 10px 10px;
+}
+
+.header h2 {
+    color:white;
+    font-size: x-large;
+    
+}
+
+p {
+    color: white;
+    margin-top: 50px;
+}
