@@ -47,7 +47,7 @@
     left: 34px;
 }
 
-button {
+main button {
     color: black;
     top: 350px;
     left: 55px;
@@ -175,8 +175,4 @@ button:hover {
 img:hover {
     opacity: 0.3;
 }
-
-
-
-
 
