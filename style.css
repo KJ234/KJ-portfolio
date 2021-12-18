@@ -194,8 +194,11 @@ button:hover {
     margin-left: 20px;
     height: 200px;
     width: 280px;
+<<<<<<< HEAD
     box-shadow: 20px 20px 20px indigo;
 }
+=======
+>>>>>>> ae563a45c4a37448a14135a4bac446be4dd3c6d0
 
 .Centered {
     position: absolute;
