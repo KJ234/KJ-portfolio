@@ -301,13 +301,41 @@ footer h2{
 
 
 
-@media screen and (max-width: 798px) {
+/* @media screen and (max-width: 798px) {
 
     main { 
         background-color: indigo;
         color: var(--textcolor);
         
     }
+     */
     
-    
+/* } */
+
+@media  screen and (max-width: 990px) {
+
+    nav ul  { 
+        background-color: rgb(88, 14, 185);
+        color: var(--textcolor);
+        width: 100%;
+        position: absolute;
+        top: 75px;
+    }
+    nav ul li {
+        display: block;
+        margin-top: 5px;
+        margin-bottom: 5px;
+        background-color: rgb(88, 14, 185) ;
+        
+    }
+
+    img {
+        display: inline-block;
+    }
 }
+
+
+
+    
+
+    
