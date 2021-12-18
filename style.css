@@ -1,14 +1,23 @@
+:root {
+    --navcolor: rgb(88, 14, 185);
+    --textcolor: white;
+    --textcolor2: black;
+    --backgroundcolor: indigo;
+}
+
+
+
+
 * {
-    
     margin: 0%;
     font-family: Arial, Helvetica, sans-serif;
 }
 
 .container {
-    background-color: rgb(88, 14, 185);
-    color: white;
+    background-color: var(--navcolor);
+    color: var(--textcolor);
     padding: 20px;
-    text-decoration: underline double white;
+    text-decoration: underline double var(--textcolor);
 }
 
 .container h1 {
@@ -24,7 +33,7 @@
 }
 
 .container nav a {
-    color:white;
+    color:var(--textcolor);
     margin-bottom: 50px;
     text-decoration: none;
     font-size: large;
@@ -41,7 +50,7 @@
 }
 
 .top-left {
-    color: white;
+    color: var(--textcolor);
     font-size: xx-large;
     position: absolute;
     top: 300px;
@@ -49,7 +58,7 @@
 }
 
 main button {
-    color: black;
+    color: var(--textcolor2);
     top: 350px;
     left: 55px;
     position: absolute;
@@ -57,7 +66,7 @@ main button {
 }
 
 button:hover {
-    background-color: indigo;
+    background-color: var(--backgroundcolor);
 }
 
 #myself {
@@ -85,7 +94,7 @@ button:hover {
 
 .right {
    float: right;
-    background-color: indigo;
+    background-color: var(--backgroundcolor);
     margin-top: 0px;
     height: 480px;
     width: 100%;
@@ -97,7 +106,7 @@ button:hover {
 
 
 .card {
-    border: 2px solid white;
+    border: 2px solid var(--textcolor);
     margin: 50px;
     box-shadow: 10px 10px 10px grey;
     height: 300px;
@@ -138,19 +147,19 @@ button:hover {
 }
 
 .header h2 {
-    color:white;
+    color:var(--textcolor);
     font-size: x-large;
     
 }
 
 .text1{
-    color: white;
+    color: var(--textcolor);
     margin-top: 85px;
     
 }
 
 .right ul li {
-    color: white;
+    color: var(--textcolor);
 }
 
 
@@ -158,7 +167,7 @@ button:hover {
 .card2 {
 
     margin-top: 200px;
-    border: 2px solid white;
+    border: 2px solid var(--textcolor);
     box-shadow: 10px 10px 10px grey;
     height: 223px;
     border-radius: 10px;
@@ -166,7 +175,7 @@ button:hover {
 }
 
 .text2 {
-    color: white;
+    color: var(--textcolor);
     margin-top: 200px;
     padding: 20px;
     
@@ -185,22 +194,22 @@ button:hover {
     font-size: x-large;
     margin-left: 30px;
     margin-top: 30px;
-    text-decoration: underline indigo solid;
+    text-decoration: underline var(--backgroundcolor) solid;
 }
 
 #placeholder-image {
-    border: indigo solid 2px;
+    border: var(--backgroundcolor) solid 2px;
     margin-right: 10px;
     margin-left: 20px;
     height: 200px;
     width: 280px;
-    box-shadow: 20px 20px 20px indigo;
+    box-shadow: 20px 20px 20px var(--backgroundcolor);
 }
 
 .Centered {
     position: absolute;
     left: 80px;
-    color: black;
+    color: var(--textcolor2);
     top: 1700px;
     transform: rotate(-20deg);
     font-size: xx-large;
@@ -211,7 +220,7 @@ button:hover {
 
     position: absolute;
     left: 28%;
-    color: black;
+    color: var(--textcolor2);
     top: 1700px;
     transform: rotate(-20deg);
     font-size: xx-large;
@@ -221,7 +230,7 @@ button:hover {
 
     position: absolute;
     left: 52%;
-    color: black;
+    color: var(--textcolor2);
     top: 1700px;
     transform: rotate(-20deg);
     font-size: xx-large;
@@ -231,7 +240,7 @@ button:hover {
 .tbc2{
     position: absolute;
     left: 78%;
-    color: black;
+    color: var(--textcolor2);
     top: 1700px;
     transform: rotate(-20deg);
     font-size: xx-large;
@@ -286,7 +295,7 @@ img:hover {
 footer h2{
     text-align: center;
     font-size: x-large;
-    color: indigo;
+    color: var(--backgroundcolor);
     margin-bottom: 50px;
 }
 
@@ -296,7 +305,7 @@ footer h2{
 
     main { 
         background-color: indigo;
-        color: white;
+        color: var(--textcolor);
         
     }
     
