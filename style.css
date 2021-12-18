@@ -191,6 +191,8 @@ button:hover {
     border: indigo solid 2px;
     margin-right: 10px;
     margin-left: 20px;
+    height: 200px;
+    width: 280px;
 
     
 }
