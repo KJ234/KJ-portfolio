@@ -29,3 +29,8 @@ This project was to create my own website - which happens to be a portfolio that
 
 
 ![The following is a screenshot of the deployed website](hwk2.png)
+
+## Links
+
+https://github.com/KJ234/KJ-portfolio.git
+file:///C:/Users/komal/KJ-portfolio/index.html
