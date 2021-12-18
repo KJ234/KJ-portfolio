@@ -5,10 +5,10 @@
 }
 
 .container {
-    background-color: indigo;
+    background-color: rgb(88, 14, 185);
     color: white;
     padding: 20px;
-    text-decoration: underline wavy white;
+    text-decoration: underline double white;
 }
 
 .container h1 {
@@ -183,7 +183,8 @@ button:hover {
 .one-row h2 {
     text-align: left;
     font-size: x-large;
-    margin-left: 20px;
+    margin-left: 30px;
+    margin-top: 30px;
     text-decoration: underline indigo solid;
 }
 
@@ -193,9 +194,49 @@ button:hover {
     margin-left: 20px;
     height: 200px;
     width: 280px;
+    box-shadow: 20px 20px 20px indigo;
+}
 
+.Centered {
+    position: absolute;
+    left: 80px;
+    color: black;
+    top: 1700px;
+    transform: rotate(-20deg);
+    font-size: xx-large;
     
 }
+
+.tbc {
+
+    position: absolute;
+    left: 28%;
+    color: black;
+    top: 1700px;
+    transform: rotate(-20deg);
+    font-size: xx-large;
+}
+
+.tbc1 {
+
+    position: absolute;
+    left: 52%;
+    color: black;
+    top: 1700px;
+    transform: rotate(-20deg);
+    font-size: xx-large;
+
+}
+
+.tbc2{
+    position: absolute;
+    left: 78%;
+    color: black;
+    top: 1700px;
+    transform: rotate(-20deg);
+    font-size: xx-large;
+}
+
 
 .one-row p {
     margin-left: 20px;
@@ -239,8 +280,17 @@ img:hover {
     display: inline-block;
     display: flex;
     justify-content: space-evenly;
-    
+    height: 50px;
 }
+
+footer h2{
+    text-align: center;
+    font-size: x-large;
+    color: indigo;
+    margin-bottom: 50px;
+}
+
+
 
 @media screen and (max-width: 798px) {
 
