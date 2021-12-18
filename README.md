@@ -22,9 +22,20 @@ THEN I am presented with a responsive layout that adapts to my viewport
 * Images will lead you the application  on the same webpage.
 * I have tried to make the webpage more responsive using the @ media screen - some difficulties using this.
 
+## Difficulties
+
+* The dsesign of the page was quite difficult - when starting to create my own application it was hard to find what to do and where to place everyhting. 
+* Getting alot of the information to be inline such as the placeholder images.
+* Making the webpage be more responsive for example everything is stacked below one another when shortening the screen.
+
 ## The project
 
-This project was to create my own website - which happens to be a portfolio that will showcase all my work. See the below image.
+This project was to create my own website - which happens to be a portfolio that will showcase all my work. See the below image. The portfolio does show some upcoming projects on the page.
+
+
+## Installation 
+
+The website has been published using GitHub - all you need to do is follow the link below to access the website.
 
 
 
@@ -32,5 +43,6 @@ This project was to create my own website - which happens to be a portfolio that
 
 ## Links
 
-https://github.com/KJ234/KJ-portfolio.git
-file:///C:/Users/komal/KJ-portfolio/index.html
+https://github.com/KJ234/KJ-portfolio.git  This is a link to my GitHub page
+
+https://kj234.github.io/KJ-portfolio/  This is a link to my actual website
