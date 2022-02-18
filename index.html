@@ -52,110 +52,95 @@
       </div>
     </nav>
 
-    <main>
-      <h1 class="top-left">My Portfolio</h1>
-      <button>
-        <h2><a href="#Learn-More">Learn More</a></h2>
+    <div
+      id="carouselExampleCaptions"
+      class="carousel slide"
+      data-bs-ride="carousel"
+    >
+      <div class="carousel-indicators">
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="0"
+          class="active"
+          aria-current="true"
+          aria-label="Slide 1"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="1"
+          aria-label="Slide 2"
+        ></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active bg-1">
+          <div class="carousel-caption">
+            <div class="contains">
+              <h5 class="section_title section_title--intro">
+                Hi, I am <strong>Komal Javed</strong>
+              </h5>
+              <p class="section_subtitle section_subtitle--intro">
+                front end dev
+                
+              </p>
+              <img
+                src="../KJ-portfolio/Images/myself.jpg"
+                alt=""
+                class="image-me"
+              />
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item bg-2">
+          <div class="carousel-caption" id="project1">
+            
+              <h5 class="section_titles section_title--intro">
+                Project 1<strong>UOB EATS</strong>
+              </h5>
+              <p class="section_subtitle section_subtitle--intro">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut ipsam laborum vero labore repellendus sapiente deserunt nemo exercitationem, saepe molestiae perferendis tenetur voluptate voluptatem esse! Maiores quia aperiam quod aliquam?
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos, sunt facilis, ullam nobis adipisci rem aliquam non, atque quibusdam deserunt ut corrupti animi voluptatibus nisi voluptate aspernatur nemo veritatis? Aut!
+                <br>
+                <a href="#" class="btn2">Deployed</a>
+                
+              </p>
+              <img
+                src=".."
+                alt=""
+                class="image-me"
+              />
+            </div>
+          </div>
+         
+          
+        </div>
+      </div>
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
       </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="next"
+      >
+        <span
+          class="carousel-control-next-icon"
+          id="color"
+          aria-hidden="true"
+        ></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
 
-      <div id="Learn-More"></div>
-
-      <section class="bottom-row">
-        <div id="About" class="independent-styling">
-          <img
-            src="./Images/20200227_155108.jpg"
-            alt="A image of myself"
-            id="myself"
-          />
-          <h2>About</h2>
-          <p>
-            Hello, my name is Komal Javed, and I am 18 years old. I am
-            interested in learning how to code. I hope to improve my skills
-            through this course so that I can get a career in this field in the
-            future.I don't have much to show or say right now because I've only
-            recently started studying, but I'll be adding to this website as
-            time goes on. This website should be loaded with several projects
-            that I have produced and contributed to. Once I have completed the
-            6-month bootcamp. This webpage can then be shown to future employers
-            who are interested in hiring me.
-          </p>
-        </div>
-      </section>
-
-      <section class="right">
-        <div id="Projects" class="card">
-          <header class="image-header">Horiseon</header>
-          <a href="https://kj234.github.io/HWK1-refactoring-code/"
-            ><img
-              src="./Images/screenshot.png"
-              alt="blue website of communications"
-              class="side-styling"
-          /></a>
-        </div>
-        <p class="text1">
-          This project was to refactor code for an existing site to make it more
-          accessible. My job was to copy the starter code to my own repository
-          and add details so that I can improve the code. For example, the
-          images previously in index.html were missing alt attributes, which
-          have now been added. Please click the image to your left!
-        </p>
-
-        <div id="Projects" class="card2">
-          <header class="image-header2">PORTFOLIO</header>
-          <a href="https://kj234.github.io/KJ-portfolio/"
-            ><img
-              src="./Images/hwk2.png"
-              alt="Purple wbsite which says portfolio"
-              class="side-styling2"
-          /></a>
-        </div>
-        <p class="text2">
-          This is something I'm currently working on; it will serve as my
-          portfolio for the foreseeable future. This website will continue to
-          grow as I add additional projects. Throughout this task, I have
-          demonstrated my abilities of writing code.
-        </p>
-      </section>
-
-      <section class="one-row">
-        <h2 class="new-products">Work In Process&#8595;</h2>
-        <br /><br />
-        <div class="Centered">JavaScript</div>
-        <img
-          src="./Images/03-javascript-homework-demo.png"
-          alt="placeholder Image"
-          id="placeholder-image"
-        />
-        <div class="tbc">To Be Confirmed</div>
-        <img
-          src="./Images/download.png"
-          alt="placeholder Image"
-          id="placeholder-image"
-        />
-        <div class="tbc1">To Be Confirmed</div>
-        <img
-          src="./Images/download.png"
-          alt="placeholder Image"
-          id="placeholder-image"
-        />
-        <div class="tbc2">To Be Confirmed</div>
-        <img
-          src="./Images/download.png"
-          alt="placeholder Image"
-          id="placeholder-image"
-        />
-
-        <p>
-          The images above are placeholders for images that will be added and
-          confirmed as I progress through the bootcamp. This page should soon be
-          loaded with work that I've completed. For the time being, they serve
-          as a means of filling the page so that it does not appear to be
-          completely empty.
-        </p>
-      </section>
-    </main>
-
-    <form class="form">
+    <!-- <form class="form">
       <div id="Contact"></div>
       <h2>Contact Me</h2>
       <br /><br />
@@ -187,6 +172,11 @@
         <li><a href="https://www.youtube.com/">Youtube</a></li>
       </ul>
       <h2>Produced by Komal &#128151;</h2>
-    </footer>
+    </footer> -->
+    <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+    crossorigin="anonymous"
+  ></script>
   </body>
 </html>
