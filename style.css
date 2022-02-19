@@ -20,11 +20,15 @@ body {
 
 .navbar-light .navbar-brand:focus,
 .navbar-light .navbar-brand:hover {
-  color: #fff;
+  color: indigo;
 }
 
 .navbar-light .navbar-nav .nav-link {
-  color: #fff;
+  color: indigo;
+}
+
+#color {
+  background-color: black;
 }
 
 .carousel-item {
