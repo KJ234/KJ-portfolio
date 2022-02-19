@@ -41,10 +41,6 @@ body {
   background-size: cover;
 }
 
-.bg-2 p {
-  text-align: end;
-}
-
 .carousel-caption h5 {
   font-size: 60px;
   color: black;
@@ -57,6 +53,15 @@ body {
   margin-top: -130px;
   border-radius: 30px;
   box-shadow: 10px 10px 10px white;
+}
+
+.Project-image {
+  display: flex;
+}
+
+#title-project {
+  text-align: end;
+  margin-bottom: 100px;
 }
 
 .contains {
@@ -114,7 +119,14 @@ img {
   font-size: 0.8em;
   text-transform: uppercase;
   letter-spacing: 2px;
-  color: black;
+  color: white;
+  margin-bottom: 150px;
+  text-align: end;
+  margin-left: 600px;
+}
+
+#project {
+  height: 22rem;
 }
 
 h1,
@@ -148,8 +160,8 @@ h3 {
 }
 
 .section_subtitle--intro {
-  background-color: white;
-  color: black;
+  background-color: indigo;
+  color: white;
 }
 
 .intro {
@@ -160,4 +172,71 @@ h3 {
   .intro {
     display: grid;
   }
+}
+
+.about-me,
+.my-work {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.about-me img {
+  float: right;
+  border: 2px solid black;
+  height: 200px;
+  margin-top: -200px;
+  background-color: indigo;
+}
+
+.about-me__body h3 {
+  background-color: indigo;
+  color: white;
+}
+
+.row {
+  display: flex;
+  justify-content: space-around;
+}
+
+.card {
+  border: 2px solid indigo;
+  box-shadow: 10px 10px 10px grey;
+  border-radius: 10px;
+}
+
+#contact {
+  text-align: center;
+  background: indigo;
+  margin: auto;
+  font-size: 20px;
+  color: #f2ebec;
+
+  width: 85%;
+  padding: 30px;
+  border: 0;
+  border-radius: 5px;
+  box-shadow: 0 0 30px -5px hsl(0deg 0% 21% / 45%);
+  text-decoration: none;
+}
+
+#contact h2 {
+  font-size: 35px;
+  font-family: "Raleway", sans-serif;
+  margin-top: 30px;
+}
+
+.centre {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.btn-project {
+  padding: 0.5em 1.5em;
+  text-decoration: none;
+  cursor: pointer;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: white;
+  background: indigo;
 }
